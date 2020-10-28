@@ -70,9 +70,7 @@ class AddUser extends Component {
                       value={this.state.fName}
                       onChange={this.onChange}
                     />
-                    {errors.fName && (
-                      <div className="invalid-feedback">{errors.fName} </div>
-                    )}
+                    <p>{errors.fName}</p>
                   </div>
                   <div className="form-group">
                     <input
